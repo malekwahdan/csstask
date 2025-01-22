@@ -1,0 +1,31 @@
+#tiitle-head{
+    background-color: blue;
+    text-align: center;
+    width: 300px;
+}
+#title{
+    color: yellow;
+}
+#red{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#img{
+    height: 100px;
+}
+#sub{
+    color: green;
+}
+#blue-p{
+    background-color: blue;
+    color: white;
+    width: 500px;
+}
+#backgroundimg{
+    background-image: url("background.jpg");
+    background-size: 500px 500px;
+    height: 700px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
