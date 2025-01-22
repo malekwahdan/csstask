@@ -1,0 +1,35 @@
+div:nth-child(1){
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+}
+div:nth-child(2){
+    position: absolute;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(192, 246, 255);
+    height: 200px;
+    width: 200px;
+}
+div:nth-child(3){
+    position: absolute;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgb(192, 255, 207);
+    height: 200px;
+    width: 200px;
+}
+div:nth-child(4){
+    position: absolute;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(255, 245, 192);
+    height: 200px;
+    width: 200px;
+}

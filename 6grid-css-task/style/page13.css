@@ -1,0 +1,106 @@
+body{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.head-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    flex-direction: row;
+    justify-content: center;
+}
+.head-left{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.logo{
+    height: 60%;
+}
+.flex2,.left-text1,.left-text2{
+    margin: 0;
+}
+.right-image{
+    height: 20%;
+    cursor: pointer;
+}
+.head-right{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-text1{
+    font-family: "Pacifico", serif;
+}
+.left-text2{
+    color: gray;
+}
+.mid-header{
+    font-family: "Pacifico", serif;
+  font-weight: 400;
+}
+.middiv{
+    color: gray;
+}
+.main-image{
+    width: 100%;
+    max-height: 500px;
+}
+.main-p{
+    color: grey;
+}
+.note{
+    background-image: url(/images/note.jpg);
+     background-size: cover;
+     width: 100%;
+     padding: 2%;
+     display: grid;
+     grid-template-columns: 40% 60%;
+     font-family: "Pacifico", serif;
+     font-weight: 400;
+     box-shadow: 4px 4px 4px 4px black;
+     border-radius: 10px;
+}
+.bottom-line{
+    border: 2px dotted black;
+    margin: 20px 20px 6px 20px;
+}
+.profile-pic{
+   height: 80px;
+   width: 80px;
+   border-radius: 50%;
+}
+.flex-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-p{
+    width: 20%;
+    font-weight: bold;
+    font-family: "Pacifico", serif;
+}
+.bottom-b{
+    padding: 17px;
+   margin-right: 20%;
+   background-color: red;
+   border: 2px solid black;
+   color: white;
+   width: 170px;
+   cursor: pointer;
+}
+.bottom-p2{
+    width: 40%;
+    color: grey;
+}
+.flrx-footer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.logo-bottom{
+    
+    width: 50px;
+}

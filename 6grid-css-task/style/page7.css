@@ -1,0 +1,24 @@
+.head{
+    border: 1px solid black;
+    height: 240px;
+    padding: 6px;
+}
+.main{
+    border: 1px solid black;
+    height: 170px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    gap: 20px 90px;
+    padding: 10px;
+}
+.a{
+    background-color: blueviolet;
+    width: 111px;
+    text-align: center;
+    height: 55px;
+    margin-left: 377px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

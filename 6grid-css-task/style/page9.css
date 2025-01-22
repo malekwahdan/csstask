@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);  
+    gap: 10px 10px; 
+}
+
+.i{
+    position: absolute;
+    opacity: 0.8;       
+}
+
+.top{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.bottom {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+}
+
+.middle {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}

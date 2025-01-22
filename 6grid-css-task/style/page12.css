@@ -1,0 +1,40 @@
+.flex{
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+img{
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 0px;
+}
+h3{
+    height: 20px;
+}
+.p1{
+    margin-top: 0px;
+    color: gray;
+    margin-bottom: 0px;
+    padding-bottom: 9px;
+}
+.container{
+    display: GRID;
+    grid-template-columns: 25% 25% 25% 25% ;
+    gap: 10px 10px;
+}
+button{
+    padding: 8px;
+    background-color: rgb(28, 148, 126);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    cursor: pointer;
+    
+   
+}

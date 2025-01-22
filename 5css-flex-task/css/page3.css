@@ -1,0 +1,14 @@
+.d1{
+    border: 3px solid rgb(238, 191, 23);
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d2{
+    background-color: aqua;
+    padding: 20px;
+
+}

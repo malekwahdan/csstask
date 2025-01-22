@@ -1,0 +1,25 @@
+#d1{
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+}
+#d2{
+    position: fixed;
+    z-index: 2;
+    background-color: blue;
+    height: 90px;
+    width: 600px;
+    top:148px;
+    left: 33px;
+}
+#d3{
+    background-color: green;
+    position: absolute;
+    height: 90px;
+    width: 400px;
+    left: 55px;
+    top: 70px;
+}
+body{
+    height: 999px;
+}

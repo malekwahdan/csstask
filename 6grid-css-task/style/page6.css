@@ -1,0 +1,20 @@
+.container{
+    background-color: color-mix(in oklab, #a256e4 50%, pink);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 600px;
+    gap: 10px 10px;
+    padding: 10px;
+}
+.a{
+    background-color: orange;
+    padding: 6px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    height: 44px;
+    border-radius: 10px;
+}
+.a3{
+    grid-area: 4/1/4/9;
+}
